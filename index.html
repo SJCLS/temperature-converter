@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperaturizator 3000!</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Nunito&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="center">
+    <label class="label">Enter a temperature:</label><br>
+    <input type="text" id="textBox"><br>
+    
+    <label class="labels" id="convertLabel">Convert to:</label><br>
+    <input type="radio" id="cButton" name="unit">
+    <label class="labels">Celsius</label><br>
+
+    <input type="radio" id="fButton" name="unit">
+    <label class="labels">Fahrenheit</label><br>
+
+    <button type="button" id="submitButton">Submit!</button><br>
+    <label id="tempLabel"></label>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>

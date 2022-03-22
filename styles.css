@@ -1,0 +1,87 @@
+body { 
+    height: 100vh;
+    background-image: radial-gradient(hsla(283, 88%, 41%, 0.849) ,hsla(246, 88%, 39%, 0.904));
+    background-repeat: no-repeat;
+    font-family: 'Inter', sans-serif;
+    overflow: hidden;
+    min-width: 400px;
+    max-width: 600px;
+    width: 50%;
+}
+
+#submitButton { 
+    
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    align-items: center;
+       
+}
+
+.center { 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: hsla(283, 100%, 23%, 0.555);
+    border-radius: 10px;
+    padding: 0 0 20px 0;
+    background-size: cover;
+    
+
+}
+
+.label { 
+    color: white;
+    align-items: center;
+    font-weight: lighter;
+    text-align: center;
+    margin-left: 20px;
+    
+}
+
+.labels { 
+    font-weight: lighter;
+    color: white;
+}
+
+#textBox { 
+    background: hsla(283, 45%, 71%, 0.884);
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    border-width: 1.5px;
+    font-weight: bolder;
+    font-family: 'Inter', sans-serif;
+    
+    
+}       
+
+#submitButton { 
+    background: hsla(283, 45%, 71%, 0.884);
+    border-radius: 10px;
+    border-width: 1.5px;
+    margin-left: 50%;
+    margin-right: 50%;
+    transform: translate(-50%);
+    
+}
+
+#convertLabel { 
+    margin: 5px;
+    font-weight: bold;
+    color: white;
+    font-weight: lighter;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#tempLabel { 
+    background: hsla(283, 45%, 71%, 0.884);
+    text-align: center;
+    margin-left: 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: black;
+}
+
+ 
